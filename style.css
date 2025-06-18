@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color:#FEA089 ;
+    padding: 50px 5%;
+}
+.container{
+    position: relative;
+    height: 100%;
+    background-color:rgba(255,255,255, .1);
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 25px 5%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    display:inline-block;
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom:2px solid transparent;
+    transition: .5s;
+}
+.navbar a:hover,.navbar a.active{
+    border-color: #fff;
+}
+.section-one{
+    text-align: center;
+    
+}
+.section-one__name{
+    padding-top: 5%;
+    color: black;
+}
+.section-one__dev{
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 60px;
+    padding-left: 45px;
+    justify-content: space-between;
+    z-index: 100;
+    font-weight: 600;
+    color: #fff;
+
+}
+.section-one__desc{
+    text-align: justify;
+    padding: 15px;
+    color: #fff;
+}
+.section-three{
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: transparent;
+
+    border: 2px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+li{
+    
+}
+.section-three__title{
+    padding: 10px;
+    color:black
+}
+.section-three__desc{
+    padding: 10px;
+    padding-left: 30px;
+    color: #fff;
+}
+.section-four{
+    display:inline-block;
+    margin-left: 450px;
+    margin-top: -154px;
+    vertical-align: top;
+    border-radius: 10px;
+    background-color:transparent;
+    border: 2px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section-four__title{
+    color: black;
+}
+.section-four,.section-four__desc{
+    padding-left: 10px;
+    color: #fff;
+}
+.section-five{
+    margin-left: 1070px;
+    margin-top: -170px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+    vertical-align: top;
+    background-color:transparent;
+    border: 2px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+ .section-three:hover{ 
+    transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2)
+    
+}
+.section-five:hover{
+     transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2)
+}
+.section-four:hover{
+     transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2)
+}
+.socialmedia{
+    margin-left: 60px;
+}
+.socialmedia a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+.socialmedia a:hover{
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+}
+.section-six{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.section-six__title{
+    color: #fff;
+}
+.section-form{
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 30px;
+    background-color:transparent;
+    border: 2px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    display: inline-flex;
+    border-radius: 10px;
+    padding: 30px;
+
+    
+}
+.section-form__input{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.section-form__textarea{
+    background-color: transparent;
+    border: 0px;
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.section-form__button{
+    margin-top: 10px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+
+
